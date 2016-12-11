@@ -1,0 +1,14 @@
+((*- extends 'article.tplx' -*))
+
+((* block author *))
+\author{Alamgir Hossain}
+((* endblock author *))
+
+((* block title *))
+\title{Quadretic Equations}
+((* endblock title *))
+
+((* block bibliography *))
+\bibliographystyle{unsrt}
+\bibliography{jupyter}
+((* endblock bibliography *))
