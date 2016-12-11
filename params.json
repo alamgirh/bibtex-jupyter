@@ -1,0 +1,6 @@
+{
+  "name": "Bibtex-example-jupyter",
+  "tagline": "",
+  "body": "# BibTeX in Jupyter (How to include a bibliography?)\r\n\r\n## What we need?\r\n- A Jupyter file (.ipynb)\r\n- A BibTeX file (.bib)\r\n- A template file (.tplex)\r\n\r\n### How to run? \r\n%%bash<br>\r\nipython nbconvert --to latex --template citations.tplx QuadraticEquations.ipynb<br>\r\npdflatex QuadraticEquations.tex<br>\r\nbibtex QuadraticEquations<br>\r\npdflatex QuadraticEquations.tex<br>\r\n\r\n### More information\r\n#### nbconvert\r\n- [Converting notebooks to other formats](https://ipython.org/ipython-doc/1/interactive/nbconvert.html)\r\n\r\n#### ipython citations tutorial\r\n- [Managing citations in the IPython Notebook](http://nbviewer.jupyter.org/github/ipython/nbconvert-examples/blob/master/citations/Tutorial.ipynb)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
