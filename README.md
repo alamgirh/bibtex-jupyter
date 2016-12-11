@@ -6,7 +6,7 @@
 - A template file (.tplex)
 
 ### How to run? 
-%%bash
+%%bash<br>
 ipython nbconvert --to latex --template citations.tplx QuadraticEquations.ipynb<br>
 pdflatex QuadraticEquations.tex<br>
 bibtex QuadraticEquations<br>
