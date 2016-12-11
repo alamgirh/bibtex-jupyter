@@ -7,10 +7,10 @@
 
 ### How to run? 
 %%bash
-ipython nbconvert --to latex --template citations.tplx QuadraticEquations.ipynb
-pdflatex QuadraticEquations.tex
-bibtex QuadraticEquations
-pdflatex QuadraticEquations.tex
+ipython nbconvert --to latex --template citations.tplx QuadraticEquations.ipynb<br>
+pdflatex QuadraticEquations.tex<br>
+bibtex QuadraticEquations<br>
+pdflatex QuadraticEquations.tex<br>
 
 ### More information
 #### nbconvert
