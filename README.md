@@ -2,8 +2,11 @@
 
 ## What we need?
 - A Jupyter file (.ipynb)
+  - e.g. [QuadraticEquations.ipynb](https://github.com/alamgirh/bibtex-jupyter/blob/master/QuadraticEquations.ipynb)
 - A BibTeX file (.bib)
+  - e.g [jupyter.bib](https://github.com/alamgirh/bibtex-jupyter/blob/master/jupyter.bib)
 - A template file (.tplex)
+  - e.g. [citations.tplx](https://github.com/alamgirh/bibtex-jupyter/blob/master/citations.tplx)
 
 ### How to run? 
 %%bash<br>
